@@ -9,7 +9,7 @@ Simple file uploader with MERN stack.
 * [Material-UI](https://material-ui.com/)
 * [Nodejs](https://nodejs.org) 
 * [Express](https://expressjs.com/)
-* [Mongoose] (https://mongoosejs.com/)
+* [Mongoose](https://mongoosejs.com/)
 
 ### How to run with NPM in development
 
