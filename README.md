@@ -27,7 +27,6 @@ npm start
 MongoDb must be installed in order to run the project. 
 Please folllow instructions to run [MongoDb] here: (https://levelup.gitconnected.com/how-to-install-mongodb-database-on-local-environment-19a8a76f1b92)
 
-
 *React app listening at:*  **localhost:3000**.
 *Node server listening at:*  **localhost:8000**.
 
