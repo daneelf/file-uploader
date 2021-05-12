@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+## Simple file uplaoder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple file uploader with MERN stack.
 
-## Available Scripts
+## Build With
 
-In the project directory, you can run:
+* [React](https://reactjs.org/)
+* [Create-react-app](https://create-react-app.dev)
+* [Material-UI](https://material-ui.com/)
+* [Nodejs](https://nodejs.org) 
+* [Express](https://expressjs.com/)
+* [Mongoose] (https://mongoosejs.com/)
 
-### `yarn start`
+### How to run with NPM in development
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+git clone file-uploader
+cd file-uploader
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+npm install
+npm run start
+```
+#### Prerequisites 
 
-### `yarn test`
+MongoDb must be installed in order to run the project. 
+Please folllow instructions to run [MongoDb] here: (https://levelup.gitconnected.com/how-to-install-mongodb-database-on-local-environment-19a8a76f1b92)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+*React app listening at:*  **localhost:3000**.
+*Node server listening at:*  **localhost:8000**.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Features implemented
+* Upload single audio file
+* Delete single audio file
+* Delete all files
+* Preview audio file
