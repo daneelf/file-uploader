@@ -28,11 +28,15 @@ npm install
 ```
 Run MongoDB:
 
-```See more information about this action in Prerequisites```
+```
+See more information about this action in Prerequisites
+```
 
 Finally:
 
-```npm start```
+```
+npm start
+```
 
 
 #### Prerequisites 
