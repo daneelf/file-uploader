@@ -20,7 +20,7 @@ cd file-uploader
 
 ```
 npm install
-npm run start
+npm start
 ```
 #### Prerequisites 
 
